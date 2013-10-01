@@ -14,6 +14,8 @@ public class pie {
 		
 		System.out.println("version 2 pie products : ");
 		System.out.println(getNewR2PieProducts());
+		
+		System.out.println("My Contacts : " + contacts.getContacts());
 	}
 	
 	public static String getOldPieProducts()
