@@ -18,11 +18,24 @@ public class pie {
 		//Implementation of Contact Page
 		System.out.println("List of Contacts");
 		System.out.println(contact_page.getContactUs());
+		
+		System.out.println("version 2 pie products : ");
+		System.out.println(getNewR2PieProducts());
+		
+		System.out.println("My Contacts : " + contacts.getContacts());
+		
+		//Implement Index page
+		System.out.println(index_page.getIndexPageContent());
 	}
 	
 	public static String getOldPieProducts()
 	{
 		return "Pie old 1, Pie old 2";
+	}
+	
+	public static String getNewR2PieProducts()
+	{
+		return "Pie R2 1, Pie R2 2";
 	}
 
 }
