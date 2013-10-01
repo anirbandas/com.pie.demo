@@ -11,9 +11,13 @@ public class pie {
 		
 		System.out.println("version 1 pie products : ");
 		System.out.println(getOldPieProducts());
-		
+
 		//Fix production bug
 		System.out.println("Fixing production defect for v1.1");
+
+		//Implementation of Contact Page
+		System.out.println("List of Contacts");
+		System.out.println(contact_page.getContactUs());
 	}
 	
 	public static String getOldPieProducts()
