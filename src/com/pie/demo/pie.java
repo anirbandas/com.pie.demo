@@ -11,6 +11,9 @@ public class pie {
 		
 		System.out.println("version 1 pie products : ");
 		System.out.println(getOldPieProducts());
+		
+		//Fix production bug
+		System.out.println("Fixing production defect for v1.1");
 	}
 	
 	public static String getOldPieProducts()
