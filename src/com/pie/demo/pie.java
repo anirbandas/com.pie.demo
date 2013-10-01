@@ -16,6 +16,9 @@ public class pie {
 		System.out.println(getNewR2PieProducts());
 		
 		System.out.println("My Contacts : " + contacts.getContacts());
+		
+		//Implement Index page
+		System.out.println(index_page.getIndexPageContent());
 	}
 	
 	public static String getOldPieProducts()
