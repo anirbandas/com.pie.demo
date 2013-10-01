@@ -13,6 +13,7 @@ public class pie {
 		System.out.println(getOldPieProducts());
 		
 		//Implementation of Contact Page
+		System.out.println("List of Contacts");
 		System.out.println(contact_page.getContactUs());
 	}
 	
