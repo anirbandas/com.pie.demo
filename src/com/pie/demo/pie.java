@@ -11,6 +11,9 @@ public class pie {
 		
 		System.out.println("version 1 pie products : ");
 		System.out.println(getOldPieProducts());
+		
+		//Implementation of Contact Page
+		System.out.println(contact_page.getContactUs());
 	}
 	
 	public static String getOldPieProducts()
